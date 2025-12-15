@@ -5,14 +5,11 @@ Machine learning project to predict medical insurance costs using regression mod
 This project focuses on predicting medical insurance costs using machine learning techniques. 
 The goal is to analyze different factors such as age, BMI, smoking habits, and region, and predict the insurance charges for an individual.
 
-This project was developed as a semester-end Machine Learning project.
-
 # Objectives
 - To understand how machine learning can be used for cost prediction
 - To analyze factors affecting medical insurance charges
 - To build and compare regression-based ML models
 - To deploy the trained model using different interfaces
-
 
 # Dataset
 - Source: Kaggle (Medical Insurance Dataset)
@@ -31,8 +28,7 @@ The dataset was preprocessed by encoding categorical variables and handling basi
 1. Data loading and preprocessing  
 2. Exploratory Data Analysis (EDA)  
 3. Model training using:
-   - Linear Regression  
-   - Decision Tree Regressor  
+   - Linear Regression   
    - Random Forest Regressor  
 4. Model evaluation using performance metrics  
 5. Selection of the best-performing model  
@@ -54,13 +50,9 @@ The dataset was preprocessed by encoding categorical variables and handling basi
 - **FastAPI**: Modern API framework with automatic documentation
 
 # Results
-The Decision Tree / Random Forest model performed better compared to basic linear regression, showing improved accuracy due to non-linear relationships in the data.
+ Random Forest model performed better compared to basic linear regression, showing improved accuracy due to non-linear relationships in the data.
 
 
 # Conclusion
 Machine learning models can effectively predict medical insurance costs when relevant features are used. 
 This project demonstrates the complete ML pipeline from data collection to deployment.
-
-
-## 👩‍🎓 Author
-Semester End Machine Learning Project  
